@@ -24,9 +24,9 @@
         <label for="gender_f" style="display: inline;">FEMALE</label>
 		<br><br>
 
-		<label for="car">Car Brands:</label>
+		<label for="cars">Car Brands:</label>
 		<select id="cars" name="car" required>
-			<option value="">--Please choose an option</option>
+			<option value="">--Please choose an option--</option>
 			<option value="ford">Ford</option>
 			<option value="tata">Tata</option>
 			<option value="kia">Kia</option>
@@ -42,7 +42,7 @@
 		<input name="dob" type="date" id="dob" required>
 		<br><br>
 
-		<label for="phone_number">Phone Number:</label>
+		<label for="tel">Phone Number:</label>
 		<input name="phone_number" type="tel" id="tel" placeholder="xxx-xxx-xxxx">
 		<br><br>
 
@@ -51,7 +51,10 @@
 		<br><br>
 
 		<label for="tos">I agree to the TOS</label>
-		<input type="checkbox" id="tos" name="tos" required>
+		<input name="tos" type="checkbox" id="tos" name="tos" required>
+		<br><br>
+
+		<button type="submit">Signup</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
